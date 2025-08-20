@@ -26,7 +26,7 @@ public class CalculatorTest {
 
     @Test
     public void testDivide(){
-        Assert.assertEquals(0.5, calculator.divide(2,4), 0.001);
+        Assert.assertEquals(0.53, calculator.divide(2,4), 0.001);
     }
 
     @Test(expected = IllegalArgumentException.class)
